@@ -13,7 +13,9 @@
   h1 { font-size:2rem; margin:0 0 4px; }
   .version { color:var(--muted); margin:0 0 32px; }
   .card { display:flex; align-items:center; gap:16px; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px 20px; margin-bottom:14px; }
-  .card .info { flex:1; min-width:0; }
+  .card { flex-wrap:wrap; }
+  .card .info { flex:1 1 12rem; min-width:0; }
+  h1 { overflow-wrap:anywhere; }
   .card .os { font-weight:600; font-size:1.1rem; }
   .card .meta { color:var(--muted); font-size:.9rem; overflow-wrap:anywhere; }
   .btn { flex:none; background:var(--accent); color:#fff; text-decoration:none; font-weight:600; padding:10px 18px; border-radius:10px; }
